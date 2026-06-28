@@ -1,3 +1,4 @@
+<html>
 <body>
 <table id="dataTable">
     <thead>
@@ -24,3 +25,4 @@
 <button id="addRow">+</button>
 
 </body>
+</html>
