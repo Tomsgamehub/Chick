@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Number Grid</title>
+<title>100 calc</title>
 
 <style>
     body {
         font-family: sans-serif, serif, Arial;
         padding: 20px;
+    }
+
+    #buttCalc {
+        font-family: sans-serif, serif, Arial;
+        background-color: green;
+        color: white;
     }
 
     table {
@@ -53,15 +59,20 @@
 </head>
 <body>
 
+    <input type="text" id="a">
+    <input type="text" id="b">
+    <input type="text" id="c">
+    <input type="text" id="d">
+
 <table>
 
 <thead>
 <tr>
     <th class="col1">?</th>
-    <th class="col2">B</th>
-    <th class="col3">C</th>
-    <th class="col4">D</th>
-    <th class="col5">E</th>
+    <th class="col2">a</th>
+    <th class="col3">b</th>
+    <th class="col4">c</th>
+    <th class="col5">d</th>
 </tr>
 </thead>
 
@@ -150,5 +161,7 @@
 </tbody>
 
 </table>
+
+<button id="buttCalc">Calculate score</button>
 
 </body>
